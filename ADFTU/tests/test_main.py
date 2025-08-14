@@ -5,6 +5,7 @@ import pytest_cov
 As a user i want to be able to read the stock and sales files and have them as panda dataframes
 TDD format, write the test first then the function
 '''
+#comments
 def test_read_csv_type():
     # Arrange
     filename = "data/test_stock.csv"
